@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal portfolio showcasing skills, projects, and ways to get in touch.">
+  <title>Your Name | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Your Name home"><span class="brand-mark">YN</span><span>Your Name</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><span></span><span></span></button>
+    <nav id="primary-nav" class="nav-links" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact" class="nav-contact">Let’s talk <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main id="main">
+    <section id="home" class="hero section-wrap">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> OPEN TO OPPORTUNITIES</p>
+        <h1>Curious mind.<br><span class="outline-text">Thoughtful</span> work.</h1>
+        <p class="hero-intro">Hi, I’m <strong>Your Name</strong> — a student and aspiring developer building useful things for the web.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#projects">Explore my work <span aria-hidden="true">↓</span></a><a class="text-link" href="#contact">Get in touch <span aria-hidden="true">↗</span></a></div>
+      </div>
+      <div class="hero-art" aria-label="Abstract decorative portrait card" role="img">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div><div class="art-sun"></div><div class="art-card"><span class="art-card-label">CURRENTLY LEARNING</span><strong>Turning ideas<br>into interfaces.</strong><span class="art-card-foot">WEB DEVELOPMENT · 2026</span></div><span class="art-spark spark-one">✳</span><span class="art-spark spark-two">✳</span>
+      </div>
+      <a href="#about" class="scroll-note"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+    </section>
+    <section id="about" class="about section-wrap section-pad">
+      <div class="section-heading"><p class="eyebrow">01 / A LITTLE ABOUT ME</p><h2>Learning by making.<br><span class="muted">Growing with every project.</span></h2></div>
+      <div class="about-grid"><p class="about-lead">I’m an enthusiastic learner interested in how design and technology come together to solve everyday problems.</p><div class="about-detail"><p>This portfolio is a snapshot of what I’m exploring: front-end development, thoughtful user experiences, and the fundamentals behind reliable software. I like breaking a challenge into small steps and learning something new along the way.</p><p>When I’m away from the keyboard, I’m usually reading, sketching ideas, or looking for my next thing to learn.</p><a class="text-link" href="#contact">More about me <span aria-hidden="true">↗</span></a></div></div>
+    </section>
+    <section id="skills" class="skills section-pad"><div class="section-wrap"><div class="section-heading"><p class="eyebrow">02 / MY TOOLKIT</p><h2>Things I’m <span class="muted">working with.</span></h2></div><div class="skill-grid"><article class="skill-card"><span class="skill-number">01</span><h3>Frontend</h3><p>Building clear, responsive web experiences.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article><article class="skill-card"><span class="skill-number">02</span><h3>Design</h3><p>Thinking about hierarchy, detail, and usability.</p><div class="tags"><span>UI basics</span><span>Wireframing</span><span>Accessibility</span></div></article><article class="skill-card"><span class="skill-number">03</span><h3>Workflow</h3><p>Learning the tools that keep projects moving.</p><div class="tags"><span>Git</span><span>GitHub</span><span>VS Code</span></div></article></div></div></section>
+    <section id="projects" class="projects section-wrap section-pad"><div class="section-heading heading-row"><div><p class="eyebrow">03 / SELECTED WORK</p><h2>Small steps.<br><span class="muted">Real projects.</span></h2></div><span class="project-count">A FEW THINGS I’VE MADE <span>↘</span></span></div><div class="project-grid"><article class="project-card project-feature"><div class="project-visual visual-lilac"><span class="visual-label">01 — COURSEWORK</span><div class="browser-frame"><div class="browser-dots"><i></i><i></i><i></i></div><div class="mock-line wide"></div><div class="mock-line"></div><div class="mock-block"></div></div></div><div class="project-info"><div><h3>Student Management API</h3><p>A REST API for managing student records with Node.js, Express, and MySQL.</p></div><span class="project-arrow" aria-hidden="true">↗</span></div><div class="project-meta"><span>Node.js</span><span>Express</span><span>MySQL</span></div></article><article class="project-card"><div class="project-visual visual-yellow"><span class="visual-label">02 — EXPERIMENT</span><div class="shape-stack"><span></span><span></span><span></span></div></div><div class="project-info"><div><h3>Creative Experiments</h3><p>A space for small interface ideas and playful visual studies.</p></div><span class="project-arrow" aria-hidden="true">↗</span></div><div class="project-meta"><span>HTML</span><span>CSS</span><span>In progress</span></div></article></div><p class="edit-hint">Replace these sample projects with links to your own work.</p></section>
+    <section id="contact" class="contact"><div class="section-wrap contact-inner"><p class="eyebrow">04 / WHAT’S NEXT?</p><h2>Have a good<br>one in mind?</h2><p>I’m always open to learning, collaborating, and hearing about interesting ideas.</p><a class="button button-light" href="mailto:hello@example.com">hello@example.com <span aria-hidden="true">↗</span></a><span class="contact-decoration" aria-hidden="true">✳</span></div></section>
+  </main>
+  <footer class="site-footer section-wrap"><a class="brand" href="#home"><span class="brand-mark">YN</span><span>Your Name</span></a><span>Designed & built as a learning project · 2026</span><a href="#home" class="back-top">Back to top ↑</a></footer>
+</body>
+</html>
