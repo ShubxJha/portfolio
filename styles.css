@@ -792,6 +792,77 @@ a {
     padding: 5px 8px
 }
 
+.project-actions {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 18px
+}
+
+.project-live-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 10px 13px;
+    border: 1px solid var(--lime);
+    border-radius: 3px;
+    background: var(--lime);
+    color: var(--ink);
+    font-size: 10px;
+    font-weight: 800;
+    transition: background-color .2s ease, border-color .2s ease, transform .2s ease
+}
+
+.live-indicator {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #5d7d2e;
+    box-shadow: 0 0 0 3px #5d7d2e20
+}
+
+.project-live-link > span:last-child,
+.project-source-link > span {
+    font-size: 14px;
+    line-height: 1;
+    transition: transform .2s ease
+}
+
+.project-live-link:hover {
+    transform: translateY(-2px);
+    border-color: #c5df51;
+    background: #c5df51
+}
+
+.project-live-link:hover > span:last-child,
+.project-source-link:hover > span {
+    transform: translate(2px, -2px)
+}
+
+.project-source-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 2px;
+    border-bottom: 1px solid #a8aaa0;
+    color: var(--ink);
+    font-size: 10px;
+    font-weight: 800;
+    transition: color .2s ease, border-color .2s ease
+}
+
+.project-source-link:hover {
+    color: #697e32;
+    border-color: #697e32
+}
+
+.project-live-link:focus-visible,
+.project-source-link:focus-visible {
+    outline: 3px solid #92a83e;
+    outline-offset: 4px
+}
+
 .edit-hint {
     font-size: 10px;
     color: #8b8d85;
