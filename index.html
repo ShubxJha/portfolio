@@ -57,10 +57,10 @@
         <p class="about-lead">I'm an enthusiastic learner interested in how design and technology come together to solve
           everyday problems.</p>
         <div class="about-detail">
-          <p>This portfolio is a snapshot of what I’m exploring: front-end development, thoughtful user experiences, and
+          <p>This portfolio is a snapshot of what I'm exploring: front-end development, thoughtful user experiences, and
             the fundamentals behind reliable software. I like breaking a challenge into small steps and learning
             something new along the way.</p>
-          <p>When I’m away from the keyboard, I’m usually reading, sketching ideas, or looking for my next thing to
+          <p>When I'm away from the keyboard, I'm usually reading, sketching ideas, or looking for my next thing to
             learn.</p><a class="text-link" href="#contact">More about me <span aria-hidden="true">↗</span></a>
         </div>
       </div>
@@ -69,7 +69,7 @@
       <div class="section-wrap">
         <div class="section-heading">
           <p class="eyebrow">02 / MY TOOLKIT</p>
-          <h2>Things I’m <span class="muted">working with.</span></h2>
+          <h2>Things I'm <span class="muted">working with.</span></h2>
         </div>
         <div class="skill-grid">
           <article class="skill-card"><span class="skill-number">01</span>
@@ -95,10 +95,11 @@
         <div>
           <p class="eyebrow">03 / SELECTED WORK</p>
           <h2>Small steps.<br><span class="muted">Real projects.</span></h2>
-        </div><span class="project-count">A FEW THINGS I’VE MADE <span>↘</span></span>
+        </div><span class="project-count">A FEW THINGS I'VE MADE <span>↘</span></span>
       </div>
       <div class="project-grid">
-        <article class="project-card project-feature">
+        <a class="project-card project-feature project-card-link" href="https://github.com/ShubxJha/student-management-api"
+          target="_blank" rel="noopener noreferrer" aria-label="Open Student Management API GitHub repository">
           <div class="project-visual visual-lilac"><span class="visual-label">01 — COURSEWORK</span>
             <div class="browser-frame">
               <div class="browser-dots"><i></i><i></i><i></i></div>
@@ -114,21 +115,69 @@
             </div><span class="project-arrow" aria-hidden="true">↗</span>
           </div>
           <div class="project-meta"><span>Node.js</span><span>Express</span><span>MySQL</span></div>
-        </article>
-        <article class="project-card">
-          <div class="project-visual visual-yellow"><span class="visual-label">02 — EXPERIMENT</span>
-            <div class="shape-stack"><span></span><span></span><span></span></div>
+        </a>
+
+        <a class="project-card project-card-link" href="https://github.com/ShubxJha/online-course-enroll-api.git" target="_blank"
+          rel="noopener noreferrer" aria-label="Replace this placeholder with the Practical 2 repository link">
+          <div class="project-visual visual-course"><span class="visual-label">02 — DATABASE API</span>
+            <div class="course-preview" aria-hidden="true">
+              <div class="course-preview-head"><strong>AVAILABLE COURSES</strong><span>3 OPEN</span></div>
+              <div class="course-preview-row"><i>CS</i><span><b>Intro to Programming</b><small>Computer Science</small></span><em>12 seats</em></div>
+              <div class="course-preview-row"><i>DB</i><span><b>Database Systems</b><small>Information Tech</small></span><em>5 seats</em></div>
+              <div class="course-preview-row"><i>UX</i><span><b>Interface Design</b><small>Design Studies</small></span><em>8 seats</em></div>
+            </div>
           </div>
           <div class="project-info">
             <div>
-              <h3>Creative Experiments</h3>
-              <p>A space for small interface ideas and playful visual studies.</p>
+              <h3>Online Course Enrollment API</h3>
+              <p>A MySQL-backed enrollment API with seat tracking and safeguards against duplicate or full-course registrations.</p>
             </div><span class="project-arrow" aria-hidden="true">↗</span>
           </div>
-          <div class="project-meta"><span>HTML</span><span>CSS</span><span>In progress</span></div>
-        </article>
+          <div class="project-meta"><span>Node.js</span><span>Express</span><span>MySQL</span><span>REST API</span></div>
+        </a>
+
+        <a class="project-card project-card-link" href="https://github.com/ShubxJha/portfolio" target="_blank"
+          rel="noopener noreferrer" aria-label="Open the Personal Portfolio GitHub repository">
+          <div class="project-visual visual-mint"><span class="visual-label">03 — PERSONAL PROJECT</span>
+            <div class="portfolio-preview" aria-hidden="true">
+              <div class="preview-top"><i></i><i></i><i></i></div>
+              <div class="preview-content">
+                <div class="preview-copy"><span></span><span></span><span></span></div>
+                <div class="preview-art"><i></i></div>
+              </div>
+              <div class="preview-bar"></div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div>
+              <h3>Personal Portfolio</h3>
+              <p>A responsive portfolio featuring my background, skills, and selected projects.</p>
+            </div><span class="project-arrow" aria-hidden="true">↗</span>
+          </div>
+          <div class="project-meta"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>GitHub</span></div>
+        </a>
+        <a class="project-card project-card-task project-card-link" href="https://github.com/ShubxJha/student-task-manager.git"
+          target="_blank" rel="noopener noreferrer"
+          aria-label="Replace this placeholder with the Practical 4 repository link">
+          <div class="project-visual visual-task"><span class="visual-label">04 — DOCKER &amp; CLOUD</span>
+            <div class="task-preview" aria-hidden="true">
+              <div class="task-preview-head"><strong>MY TASKS</strong><span>+</span></div>
+              <div class="task-preview-row"><i class="task-check task-check-done"></i><span>Plan project</span><b></b></div>
+              <div class="task-preview-row"><i class="task-check"></i><span>Review database notes</span><b></b></div>
+              <div class="task-preview-row"><i class="task-check"></i><span>Submit assignment</span><b></b></div>
+              <div class="task-preview-foot"><span>2 OPEN TASKS</span><span>•••</span></div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div>
+              <h3>Dockerized Student Task Manager</h3>
+              <p>A task manager with persistent storage, a REST API, and Docker deployment.</p>
+            </div><span class="project-arrow" aria-hidden="true">↗</span>
+          </div>
+          <div class="project-meta"><span>Node.js</span><span>Express</span><span>Docker</span><span>REST API</span></div>
+        </a>
       </div>
-      <p class="edit-hint">Replace these sample projects with links to your own work.</p>
+      <p class="edit-hint">View the <a href="https://github.com/ShubxJha?tab=repositories" target="_blank" rel="noopener noreferrer">GitHub repository <span aria-hidden="true">↗</span></a></p>
     </section>
     <section id="contact" class="contact">
       <div class="section-wrap contact-inner">
