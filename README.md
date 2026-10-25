@@ -6,10 +6,15 @@ A responsive personal portfolio built with HTML, CSS, and vanilla JavaScript.
 
 Open `index.html` in a browser. No build step or package installation is required.
 
-## Git workflow demonstrated
+## Git workflow
 
-The project starts on `main`. A feature branch was used for the initial portfolio implementation and merged back into `main`. Use `git log --oneline --graph --all` to review the history.
+The portfolio was implemented on a feature branch and merged into `main`. Review the commit graph with `git log --oneline --graph --all`.
 
 ## Publish with GitHub Pages
 
-Create a GitHub repository, add it as the `origin` remote, and push `main`. In the repository settings, choose **Pages** and deploy from the `main` branch root. Then verify the published site URL.
+1. Open the repository **Settings → Pages**.
+2. Under **Build and deployment**, set **Source** to **GitHub Actions**.
+3. Push a change to `main`, or run **Deploy portfolio to GitHub Pages** from the Actions tab.
+4. Open the deployment URL shown in the `github-pages` environment.
+
+The `.github/workflows/deploy.yml` workflow uploads the static site files and deploys them to Pages.
