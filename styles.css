@@ -863,10 +863,87 @@ a {
     outline-offset: 4px
 }
 
-.edit-hint {
+.all-repos-cta {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid var(--line);
+    background: #eeeee8;
+    transition: border-color .2s ease, transform .2s ease
+}
+
+.all-repos-cta:hover {
+    transform: translateY(-2px);
+    border-color: #bfc0b5
+}
+
+.all-repos-mark {
+    display: grid;
+    place-items: center;
+    width: 42px;
+    height: 42px;
+    flex: none;
+    border-radius: 50%;
+    background: var(--ink);
+    color: white;
+    font: 10px var(--mono)
+}
+
+.all-repos-copy {
+    display: grid;
+    gap: 4px
+}
+
+.all-repos-eyebrow {
+    color: #777970;
+    font: 8px var(--mono);
+    letter-spacing: .12em
+}
+
+.all-repos-copy strong {
+    font-size: 13px;
+    letter-spacing: -.025em
+}
+
+.all-repos-copy small {
+    color: #777970;
+    font-size: 10px
+}
+
+.all-repos-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    margin-left: auto;
+    padding: 12px 14px;
+    border-radius: 3px;
+    background: var(--ink);
+    color: white;
     font-size: 10px;
-    color: #8b8d85;
-    margin-top: 30px
+    font-weight: 700;
+    white-space: nowrap;
+    transition: background-color .2s ease, transform .2s ease
+}
+
+.all-repos-link:hover {
+    transform: translateY(-2px);
+    background: #41433c
+}
+
+.all-repos-link span {
+    font-size: 14px;
+    transition: transform .2s ease
+}
+
+.all-repos-link:hover span {
+    transform: translate(2px, -2px)
+}
+
+.all-repos-link:focus-visible {
+    outline: 3px solid #92a83e;
+    outline-offset: 4px
 }
 
 .contact {
@@ -1112,6 +1189,21 @@ button:focus-visible {
         grid-template-columns: 1fr;
         margin-top: 34px;
         gap: 34px
+    }
+
+    .all-repos-cta {
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 12px;
+        padding: 16px
+    }
+
+    .all-repos-copy {
+        flex: 1
+    }
+
+    .all-repos-link {
+        margin-left: 54px
     }
 
     .project-visual {
