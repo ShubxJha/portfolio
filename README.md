@@ -6,13 +6,6 @@ A responsive personal portfolio built with HTML, CSS, and vanilla JavaScript.
 
 Open `index.html` in a browser. No build step or package installation is required.
 
-## Customize before publishing
-
-- Replace “Your Name” and the initials `YN` with your name and initials.
-- Update the introduction, biography, skills, and sample projects.
-- Change `hello@example.com` to your contact email.
-- Add links to project repositories and live demos.
-
 ## Git workflow demonstrated
 
 The project starts on `main`. A feature branch was used for the initial portfolio implementation and merged back into `main`. Use `git log --oneline --graph --all` to review the history.
